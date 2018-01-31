@@ -6,36 +6,36 @@ public class CarDBPracMain {
 		Scanner sc= new Scanner(System.in);
 		while(true) {
 		System.out.println("========CarINFO=======");
-		System.out.println("¹øÈ£¸¦ ÀÔ·ÂÇÏ½Ã¿À...........");
-		System.out.println("1.ÀÚµ¿Â÷  Á¤º¸ º¸±â.........");
-		System.out.println("2.ÀÚµ¿Â÷ Á¤º¸ ÀÔ·Â..........");
-		System.out.println("3.ÀÚµ¿Â÷ Á¤º¸ ¼öÁ¤..........");
-		System.out.println("4.ÀÚµ¿Â÷ Á¤º¸ »èÁ¦..........");
+		System.out.println("ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì‹œì˜¤...........");
+		System.out.println("1.ìë™ì°¨  ì •ë³´ ë³´ê¸°.........");
+		System.out.println("2.ìë™ì°¨ ì •ë³´ ì…ë ¥..........");
+		System.out.println("3.ìë™ì°¨ ì •ë³´ ìˆ˜ì •..........");
+		System.out.println("4.ìë™ì°¨ ì •ë³´ ì‚­ì œ..........");
 		System.out.println("======================");
 		int inputNum = sc.nextInt();
 		
-		if(inputNum ==1) { //ÀÚµ¿Â÷ Á¤º¸ Á¶È¸
-			System.out.println("Á¶È¸");
+		if(inputNum ==1) { //ìë™ì°¨ ì •ë³´ ì¡°íšŒ
+			System.out.println("ì¡°íšŒ");
 			break;
 		}
-		else if(inputNum ==2) {//ÀÚµ¿Â÷ Á¤º¸ ÀÔ·Â
-			System.out.println("ÀÔ·Â");
+		else if(inputNum ==2) {//ìë™ì°¨ ì •ë³´ ì…ë ¥
+			System.out.println("ì…ë ¥");
 
 			break;
 		}
-		else if(inputNum ==3) {//ÀÚµ¿Â÷Á¤º¸¼öÁ¤
-			System.out.println("¼öÁ¤");
+		else if(inputNum ==3) {//ìë™ì°¨ì •ë³´ìˆ˜ì •
+			System.out.println("ìˆ˜ì •");
 
 			break;
 			
 		}
-		else if (inputNum==4) {//ÀÚµ¿Â÷Á¤º¸»èÁ¦
-			System.out.println("»èÁ¦");
+		else if (inputNum==4) {//ìë™ì°¨ì •ë³´ì‚­ì œ
+			System.out.println("ì‚­");
 
 			break;
 		}
-		else {//´Ù¸¥¹øÈ£ ÀÔ·ÂÇßÀ»¶§
-			System.out.println("´Ù½Ã ÀÔ·ÂÇØ ÁÖ¼¼¿ä");
+		else {//ë‹¤ë¥¸ë²ˆí˜¸ ì…ë ¥í–ˆì„ë•Œ
+			System.out.println("ë‹¤ì‹œ ì…ë ¥í•´ ì£¼ì„¸ìš”");
 		}
 	}
 }
